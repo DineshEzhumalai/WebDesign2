@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+*{
+  padding: 0;
+  margin: 0;
+}
+.wrapper
+{
+  background: url("mountain.jpg") ;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.cloud
+ {
+   position:absolute;
+   background: url(cloud.png);
+   height: 100%;
+   width: 100% ;
+   background-size: cover;
+  animation: cloud 60s linear infinite;
+
+}
+@keyframes cloud 
+{
+   0%{
+   background-position: 0;
+   }
+   100%
+   {
+   background-position: 5440px ;
+   }
+}
+.nav
+{  width: 100%;
+   height: 60px;
+   background: rgba(0,0,0, 0.4);
+}
+ul
+{
+ float: right; 
+
+}
+li
+{
+  margin-top: 8px;
+  display: inline-block;
+  margin-right: 30px;
+  line-height: 60px;
+  font-size: 25px;
+ 
+  
+  color: #cb372a;
+
+}
+a{
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 7px 25px;
+  border: 2px solid rgba(0, 0,0, 0.4);
+  border-radius: 50px;
+}
+a:hover
+{
+    background-color: burlywood;
+}
+h1
+{   font-size: 30px;
+    float: left;
+    margin-right:1050px;
+    margin-top: 30px;
+    color: hsl(293, 93%, 28%);
+    font-weight: bolder;
+    
+}
+section
+{
+   position:absolute;
+   top:325px;
+   left:300px
+}
+h2
+ {   
+     color: hsl(199, 80%, 50%);
+     text-shadow: 2px 2px 12px rgb(1, 1, 2);
+     font-size: 60px;
+}
+p
+{ margin-top: 15px;
+  font-size: 25px;
+  width: 700px;
+  font-weight: bolder;
+  color: #dabc13;
+  text-shadow: 7px 7px 12px rgb(112, 46, 197);
+}
